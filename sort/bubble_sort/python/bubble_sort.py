@@ -11,11 +11,13 @@ def bubble_sort(list):
 	return list
 
 
-def test():
-	list = [2, 1, 2, 7, 88, 4, 3, 6]
+def test(list):
+	
 	sorted_list = bubble_sort(list)
 	assert (sorted(list) == sorted_list)
 	
 
 if __name__ == '__main__':
-    test()
+    	list = [2, 1, 2, 7, 88, 4, 3, 6]
+	test(list)
+	print(list)
